@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "383793999390",
+    "firebase_url": "https://self-reminder-app.firebaseio.com",
+    "project_id": "self-reminder-app",
+    "storage_bucket": "self-reminder-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383793999390:android:b5945ae12d1b3862f0480f",
+        "android_client_info": {
+          "package_name": "com.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383793999390-ktv756on7cc169m5kna8m6ih6rv9s7od.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDThGg_NzoxqbSFFOay0gQZDi8TXE6Wk_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383793999390-ktv756on7cc169m5kna8m6ih6rv9s7od.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

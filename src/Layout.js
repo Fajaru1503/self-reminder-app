@@ -5,6 +5,7 @@ import Main from './pages/Main';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Home from './pages/Home';
+import Add from './pages/Add';
 import Profile from './pages/Profile';
 import EditProfile from './pages/EditProfile';
 
@@ -33,6 +34,9 @@ const Layouts = createStackNavigator(
     Home: {
       screen: Home,
     },
+    Add: {
+      screen: Add,
+    },
     Profile: {
       screen: Profile,
       navigationOptions: {
@@ -49,7 +53,7 @@ const Layouts = createStackNavigator(
     },
   },
   {
-    initialRouteName: 'Main',
+    initialRouteName: 'Home',
   },
 );
 

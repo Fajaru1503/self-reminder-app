@@ -19,7 +19,8 @@ class Login extends React.Component {
   };
 
   textInputHandler = field => text => {
-    this.setState({[field]: text});
+    const trimmedText = text.trim();
+    this.setState({[field]: trimmedText});
   };
 
   loginSubmitHandler = () => {

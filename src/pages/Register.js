@@ -20,7 +20,8 @@ class Register extends React.Component {
   };
 
   textInputHandler = field => text => {
-    this.setState({[field]: text});
+    const trimmedText = text.trim();
+    this.setState({[field]: trimmedText});
   };
 
   registerSubmitHandler = () => {
